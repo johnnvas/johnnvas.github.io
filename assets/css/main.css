@@ -51,6 +51,15 @@ svg{
 	justify-content: center;
 }
 
+a{
+	text-decoration: none;
+}
+.projects{
+	margin: 10px;
+	cursor: pointer;
+	border: none;
+}
+
 .icon-box1{
 	display: flex;
 	/* flex-wrap: wrap; */
@@ -1269,6 +1278,12 @@ input, select, textarea {
 		}
 
 /* Header */
+	.logo {
+		background-image: url('../../images/professional-pic.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+	}
 
 	#header {
 		display: -moz-flex;
